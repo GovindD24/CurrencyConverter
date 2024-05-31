@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyConverterStaticData", "CurrencyConverter\CurrencyConverterStaticData.csproj", "{14312E91-B79B-4613-BF77-CD706EB91543}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyConverter_StaticData", "CurrencyConverter\CurrencyConverter_StaticData.csproj", "{14312E91-B79B-4613-BF77-CD706EB91543}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyConverter_Database", "CurrencyConverter_Database\CurrencyConverter_Database.csproj", "{C6A056E1-35E1-47E9-88F7-99CE686C5328}"
 EndProject
