@@ -135,18 +135,18 @@
                     <DataGrid Name="dgvCurrency" AutoGenerateColumns="False" Height="180" Margin="10" Width="480" Background="Transparent" CanUserAddRows="False" SelectedCellsChanged="dgvCurrency_SelectedCellsChanged" SelectionUnit="Cell" VerticalScrollBarVisibility="Auto">
                         <DataGrid.Columns>
                             <DataGridTextColumn x:Name="Id" Header="Id" Width="100" CanUserResize="False" Visibility="Hidden" Binding="{Binding Path=Id}"/>
-                            <DataGridTemplateColumn Header="" Width="70" IsReadOnly="True" DisplayIndex="0">
+                            <DataGridTemplateColumn Header="Edit" Width="70" IsReadOnly="True" DisplayIndex="0">
                                 <DataGridTemplateColumn.CellTemplate>
                                     <DataTemplate>
-                                        <Image Source="Images\EditButton.png" ToolTip="Edit" Width="20" Height="20"  x:Name="Revise"/>
+                                        <Image Source="Images\EditButton.png" ToolTip="Edit" Width="50" Height="20"  x:Name="Revise"/>
                                     </DataTemplate>
                                 </DataGridTemplateColumn.CellTemplate>
                             </DataGridTemplateColumn>
 
-                            <DataGridTemplateColumn Header="" Width="70" IsReadOnly="True" DisplayIndex="1">
+                            <DataGridTemplateColumn Header="Delete" Width="70" IsReadOnly="True" DisplayIndex="1">
                                 <DataGridTemplateColumn.CellTemplate>
                                     <DataTemplate>
-                                        <Image Source="Images\Delete.png" ToolTip="Delete" Width="20" Height="20"  x:Name="Delete"/>
+                                        <Image Source="Images\Delete.png" ToolTip="Delete" Width="50" Height="20"  x:Name="Delete"/>
                                     </DataTemplate>
                                 </DataGridTemplateColumn.CellTemplate>
                             </DataGridTemplateColumn>
